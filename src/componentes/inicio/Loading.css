@@ -1,0 +1,39 @@
+/* Loading.css */
+
+.loading-container {
+  font-family: Gelion;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1a1b38; /* Fondo negro */
+}
+
+.hexagon {
+  width: 250px;
+}
+
+.hexagon .polygon {
+  fill: none;
+  stroke: #1a1b38; /* Color del borde del hexágono (azul) */
+  stroke-width: 3;
+}
+
+.progress-line {
+  fill: none;
+  stroke: #e62448; /* Color de la línea de progreso (rojo) */
+  stroke-width: 3;
+}
+
+.progress-line path {
+  stroke-dasharray: 0, 600;
+}
+
+.loading-text {
+
+  font-size: 48px; /* Tamaño del texto en chino */
+  font-weight: 600;
+  margin-top: 10px; /* Espacio entre el texto y la figura */
+  color: #e62448; /* Color del texto en chino */
+}

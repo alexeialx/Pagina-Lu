@@ -2,12 +2,13 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
   background: red;
 }
 .home img {
+  object-position: right;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 .home h1{
   position: absolute;
@@ -17,8 +18,75 @@
   z-index: 1;
   color: white;
 }
-.container{
-  background: green;
-  padding: 0px 250px;
+.containerr{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.estudio{
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  background: var(--crimson);
+}
+.content{
+  padding: 0px 40px;
+}
 
+.art-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-circle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 25px 45px;
+}
+.box-circle img{
+  width: 200px;
+  border-radius: 50%;
+}
+.box-circle h4{
+  text-align: center;
+}
+
+.bg-gray{
+  background: #ececec;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.box-image img {
+  width: 300px;
+}
+.box-text{
+  display: flex;
+  flex-direction: column;
+  font-family: Gelion;
+}
+.box-text h3{
+  font-size: 27px;
+  font-weight: 600;
+  color: var(--crimson);
+}
+.box-text hr{
+  margin: 10px 0;
+  
+}
+.box-text h4{
+  font-style: italic;
+  font-size: 21px;
+  font-weight: 400;
+  color: #5a5a5a;
+}
+.box-text p{
+  font-size: 15px;
+}
+.box-text button{
+  background: var(--yankees-blue);
 }

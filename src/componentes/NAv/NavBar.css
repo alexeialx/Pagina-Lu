@@ -3,10 +3,7 @@
   --bs-red1: #e62448;
 }
 .navBarStyle {
-  padding-top: 1rem;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-bottom: 1rem;
+padding: 1rem 2rem;
   background-color: rgba(26, 29, 56, 0.5);
   backdrop-filter: blur(0.4rem);
 }

@@ -12,6 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+
+  --crimson:#e62448;
+  --yankees-blue:#1a1b38;
 }
 
 a {

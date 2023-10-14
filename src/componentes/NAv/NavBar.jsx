@@ -32,7 +32,7 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top navBarStyle">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/#">
+        <a className="navbar-brand" href="/inicio">
           <img src={logo} alt="Logo" style={{ height: "40px" }} />
         </a>
         <button
@@ -44,7 +44,7 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <FontAwesomeIcon icon={faBars} ms-1 />
+          <FontAwesomeIcon icon={faBars}  />
         </button>
         <div className="collapse navbar-collapse" id="menu">
           <ul className="navbar-nav mx-auto">
