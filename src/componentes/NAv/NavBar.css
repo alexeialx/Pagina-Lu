@@ -1,0 +1,45 @@
+:root {
+  --bs-blue2: rgb(26, 29, 56);
+  --bs-red1: #e62448;
+}
+.navBarStyle {
+  padding-top: 1rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 1rem;
+  background-color: rgba(26, 29, 56, 0.5);
+  backdrop-filter: blur(0.4rem);
+}
+@media (max-width: 1200px) {
+  .navBarStyle {
+    padding-left: rem;
+    padding-right: 3rem;
+  }
+}
+.link {
+  font-family: Gelion;
+  display: block;
+  font-size: 16px;
+  color: white;
+  font-weight: 200;
+  padding: 8px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.linkHover:hover {
+  font-weight: 600;
+  color: white;
+}
+.linkHover.active {
+  font-weight: 800;
+  color: var(--bs-red1);
+}
+
+@media (min-width: 800px) {
+  .customHover:hover {
+    background-color: var(
+      --bs-red1
+    ); /* Cambia el color de fondo al pasar el ratón */
+    color: white; /* Cambia el color del texto al pasar el ratón */
+  }
+}
