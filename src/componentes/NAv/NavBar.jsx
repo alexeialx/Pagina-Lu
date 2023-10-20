@@ -32,9 +32,9 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top navBarStyle">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/inicio">
+        <Link className="navbar-brand" to="/inicio">
           <img src={logo} alt="Logo" style={{ height: "40px" }} />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
