@@ -1,1 +1,8 @@
-/*    /index.html   200
+# Redirecciones para rutas de la aplicación
+/inicio/*     /index.html   200
+/servicios/*  /index.html   200
+/estudio/*    /index.html   200
+/proyectos/*  /index.html   200
+/formacion/*  /index.html   200
+/blog/*       /index.html   200
+/contacto/*   /index.html   200
